@@ -1,27 +1,39 @@
 {
-  "name": "hack-overflow",
-  "version": "1.0.0",
-  "description": "this is a website that can be helpfull in minimizing the crime type problems",
-  "main": "server.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node backend/server.js",
-    "dev": "nodemon backend/server.js"
-  },
-  "author": "Team optimus",
-  "license": "ISC",
+  "name": "aadeshs-application-2",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "bcrypt": "^5.1.1",
-    "cloudinary": "^2.0.3",
-    "cookie-parser": "^1.4.6",
-    "crypto": "^1.0.1",
-    "dotenv": "^16.4.5",
-    "express": "^4.18.3",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.2.1",
-    "multer": "^1.4.5-lts.1",
-    "nodemailer": "^6.9.12",
-    "nodemon": "^3.1.0"
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-datepicker": "^4.5.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "6.0.2",
+    "react-router-hash-link": "^2.4.3",
+    "react-rating-stars-component": "^2.2.0",
+    "prop-types": "^15.8.1",
+    "@tailwindcss/forms": "^0.5.7",
+    "react-scripts": "5.0.0",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": ["react-app", "react-app/jest"]
+  },
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.2",
+    "postcss": "8.4.8",
+    "tailwindcss": "3.0.18"
   }
 }
